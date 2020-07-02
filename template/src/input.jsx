@@ -5,7 +5,7 @@ const Input = props => {
     <div className="form-group">
       <label htmlFor={props.name}>{props.label}</label>
       <input
-        //   ref={this.mail}
+        
         id={props.name}
         name={props.name}
         value={props.value}
